@@ -4,28 +4,37 @@ const testimonials = [
   {
     delay: '0.1s',
     stars: 5,
-    text: "Dawilly delivered our e-commerce platform ahead of schedule with exceptional attention to detail. His ability to translate business requirements into technical solutions is outstanding.",
-    initials: "JD",
-    name: "Jane Doe",
-    title: "CTO, Retail Solutions",
+    text: "Dawilly consistently demonstrated outstanding technical skills and dedication in software engineering during his studies. His problem-solving ability is impressive and he quickly adapts to new challenges.",
+    initials: "RH",
+    name: "Rorland Horombo",
+    title: "Lecturer, Arusha Technical College",
   },
   {
     delay: '0.2s',
     stars: 5,
-    text: "Working with Dawilly was a game-changer for our startup. His expertise across multiple technologies allowed us to launch our MVP quickly and iterate based on user feedback.",
-    initials: "MS",
-    name: "Michael Smith",
-    title: "Founder, Tech Startup",
+    text: "Dawilly's interdisciplinary knowledge and innovative mindset have been key in advancing biomedical projects at Proud Biomedics. His software solutions have streamlined several complex processes.",
+    initials: "MM",
+    name: "Masoud Mbelwa",
+    title: "Biomedical Engineer, CEO @ Proud Biomedics",
   },
   {
     delay: '0.3s',
     stars: 4.5,
-    text: "The IoT solution Dawilly designed for our manufacturing process improved efficiency by 35%. His understanding of both software and hardware made him the perfect developer for this project.",
-    initials: "LW",
-    name: "Lisa Wong",
-    title: "Operations Director, Manufacturing Inc.",
+    text: "I have seen Dawilly's growth firsthand. His commitment to quality and client satisfaction makes him a reliable software engineer for any project, especially in consultancy and employment services.",
+    initials: "MC",
+    name: "Mohamed",
+    title: "CEO, Alpha Employment Agency and Consultancy Limited",
+  },
+  {
+    delay: '0.4s',
+    stars: 5,
+    text: "Dawilly is a highly skilled developer whose tech expertise supports operational efficiency at Salum Transport and Salum Construction. His solutions are practical and impactful.",
+    initials: "FM",
+    name: "Fatma Masimba",
+    title: "CEO, Salum Transport Limited & Salum Construction",
   },
 ];
+
 
 const renderStars = (stars) => {
   const fullStars = Math.floor(stars);

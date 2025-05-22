@@ -27,7 +27,7 @@ const Contact = () => (
             <div>
               <h4 className="font-semibold">Phone</h4>
               <a href="tel:+1234567890" className="text-gray-400 hover:text-accent1 transition-colors">
-                +1 (234) 567-890
+                +255 753 225 961 | Tanzania | Whatsapp
               </a>
             </div>
           </div>
@@ -38,24 +38,27 @@ const Contact = () => (
             </div>
             <div>
               <h4 className="font-semibold">Location</h4>
-              <p className="text-gray-400">San Francisco, California</p>
+              <p className="text-gray-400">Dodoma Tanzania</p>
             </div>
           </div>
 
           <div className="mt-8">
             <h4 className="font-semibold mb-4">Follow Me</h4>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 rounded-full flex items-center justify-center transition-all hover:scale-110" style={{ backgroundColor: 'rgba(33, 118, 255, 0.1)' }}>
+              <a href="https://www.linkedin.com/in/elia-william-mariki/" className="w-10 h-10 rounded-full flex items-center justify-center transition-all hover:scale-110" style={{ backgroundColor: 'rgba(33, 118, 255, 0.1)' }}>
                 <i className="fab fa-linkedin-in" style={{ color: 'var(--secondary)' }}></i>
               </a>
-              <a href="#" className="w-10 h-10 rounded-full flex items-center justify-center transition-all hover:scale-110" style={{ backgroundColor: 'rgba(33, 118, 255, 0.1)' }}>
+              <a href="https://github.com/dawillygene" className="w-10 h-10 rounded-full flex items-center justify-center transition-all hover:scale-110" style={{ backgroundColor: 'rgba(33, 118, 255, 0.1)' }}>
                 <i className="fab fa-github" style={{ color: 'var(--secondary)' }}></i>
               </a>
               <a href="#" className="w-10 h-10 rounded-full flex items-center justify-center transition-all hover:scale-110" style={{ backgroundColor: 'rgba(33, 118, 255, 0.1)' }}>
                 <i className="fab fa-twitter" style={{ color: 'var(--secondary)' }}></i>
               </a>
-              <a href="#" className="w-10 h-10 rounded-full flex items-center justify-center transition-all hover:scale-110" style={{ backgroundColor: 'rgba(33, 118, 255, 0.1)' }}>
-                <i className="fab fa-dribbble" style={{ color: 'var(--secondary)' }}></i>
+              <a href="https://www.instagram.com/dawillygene/" className="w-10 h-10 rounded-full flex items-center justify-center transition-all hover:scale-110" style={{ backgroundColor: 'rgba(33, 118, 255, 0.1)' }}>
+                <i className="fab fa-instagram" style={{ color: 'var(--secondary)' }}></i>
+              </a>
+              <a href="https://www.tiktok.com/@dawilly_gene" className="w-10 h-10 rounded-full flex items-center justify-center transition-all hover:scale-110" style={{ backgroundColor: 'rgba(33, 118, 255, 0.1)' }}>
+                <i className="fab fa-tiktok" style={{ color: 'var(--secondary)' }}></i>
               </a>
             </div>
           </div>

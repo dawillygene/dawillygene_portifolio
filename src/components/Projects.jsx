@@ -36,7 +36,7 @@ const projects = [
     iconColor: 'var(--accent3)',
     badge: { text: 'Web App', bg: 'rgba(0, 102, 204, 0.2)', color: 'var(--accent3)' },
     title: 'User Authentication System',
-    description: 'Developed a secure login/registration app using Java Servlets and Spring Boot with JWT-based authentication.',
+    description: 'Developed a secure app using Java Servlets and Spring Boot with JWT-based authentication.',
     skills: ['Java', 'Spring Boot', 'Servlets'],
     link: '#',
     delay: '0.25s',
