@@ -15,7 +15,6 @@ import BackToTop from './components/BackToTop';
 
 function App() {
   useEffect(() => {
-    // Fade-in elements
     const fadeElements = document.querySelectorAll('.fade-in');
     const fadeInObserver = new window.IntersectionObserver(
       (entries) => {
@@ -29,7 +28,6 @@ function App() {
     );
     fadeElements.forEach((el) => fadeInObserver.observe(el));
 
-    // Navbar and BackToTop scroll effect
     const navbar = document.getElementById('navbar');
     const backToTop = document.getElementById('backToTop');
     const onScroll = () => {
@@ -49,7 +47,6 @@ function App() {
     };
     window.addEventListener('scroll', onScroll);
 
-    // Smooth scrolling for anchor links
     const handleAnchorClick = (e) => {
       const targetId = e.currentTarget.getAttribute('href');
       if (targetId && targetId.startsWith('#') && targetId !== '#') {
@@ -68,7 +65,6 @@ function App() {
       anchor.addEventListener('click', handleAnchorClick);
     });
 
-    // Initialize fade-in for elements already in viewport
     fadeElements.forEach((element) => {
       const rect = element.getBoundingClientRect();
       if (rect.top <= window.innerHeight) {
@@ -76,7 +72,6 @@ function App() {
       }
     });
 
-    // Skills scroll animation
     const skillsScroll = document.querySelector('.skills-scroll');
     let skillsObserver;
     if (skillsScroll) {
@@ -92,7 +87,6 @@ function App() {
       skillsObserver.observe(skillsScroll);
     }
 
-    // Cleanup
     return () => {
       window.removeEventListener('scroll', onScroll);
       anchors.forEach((anchor) => {
